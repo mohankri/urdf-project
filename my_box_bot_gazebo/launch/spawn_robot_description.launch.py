@@ -47,6 +47,9 @@ def generate_launch_description():
             "/odom" + "@nav_msgs/msg/Odometry" + "[gz.msgs.Odometry",
             "/joint_states" + "@sensor_msgs/msg/JointState" + "[gz.msgs.Model",
             "/laser_scan" + "@sensor_msgs/msg/LaserScan" + "[gz.msgs.LaserScan",
+            "/pointcloud/points" + "@sensor_msgs/msg/PointCloud2" + "[gz.msgs.PointCloudPacked",
+            "/rgb_camera" + "@sensor_msgs/msg/Image" + "[gz.msgs.Image",
+            "/camera_info" + "@sensor_msgs/msg/CameraInfo" + "[gz.msgs.CameraInfo",
         ],
         remappings=[
             # there are no remappings for this robot description

@@ -36,3 +36,8 @@ ros2 topic pub /velocity_controller/commands std_msgs/msg/Float64MultiArray "lay
   data_offset: 0
 data: [0.0]
 "
+```
+
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+```
